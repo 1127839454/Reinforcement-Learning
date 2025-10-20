@@ -1,13 +1,15 @@
-The experimental environment for this assignment is Google Colab, and the GPU model is Tesla T4.
+```
+The experimental environment for this project is Google Colab, and the GPU model is Tesla T4.
 
-Before checking the assignment, you need to create the folder RLAss in Google Drive and upload our assignment code in the folder.
+Before checking, you need to create the folder RLAss in Google Drive and upload our assignment code in the folder.
 My Drive->New folder->RLAss
-
 A total of 6 python files need to be uploaded to the RLAss folder. 
+
 DQN.py       (Implementation of DQN)
 DOUBLEDQN.py (Implementation of Double DQN)
 DIFFDQN.py   (DQN performance of e-greedy strategy under different learning rates)
 three ablation experiment files:DQN-ER.py  DQN-TN.py  DQN-ER-TN.py
+
 
 After the upload is completed, open Colab->File->New Notebook. The commands that need to be run are below.
 
@@ -70,3 +72,4 @@ torch.cuda.get_device_capability()
 
 !python DQN-ER-TN.py
 
+```
